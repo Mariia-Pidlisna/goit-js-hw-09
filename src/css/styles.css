@@ -16,3 +16,102 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}  
+
+.container {
+  width: 1440px;
+  padding: 24px 156px;
+  background: #fff;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  
+}
+
+.gallery-item:hover {
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+width: 1440px;
+background: rgba(46, 47, 66, 0.8);
+padding: 28px 164px;
+}
+
+.modal img {
+width: 1112px;
+}
+
+.feedback-form {
+  padding: 24px;
+  width: 408px;
+  
+}
+
+.form-label {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: flex-start;
+gap: 8px;
+padding-bottom: 8px;
+
+}
+
+.form-label:hover,
+.form-label:active {
+  border-color: #000;
+}
+
+.form-input, .form-textarea {
+  border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+}
+
+.form-textarea {
+height: 80px;
+}
+
+.form-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+border-radius: 8px;
+padding: 8px 16px;
+width: 95px;
+height: 40px;
+border: none;
+
+background: #4e75ff;
+
+display: flex;
+}
+
+.form-button:hover {
+  background: #6c8cff;
+}
